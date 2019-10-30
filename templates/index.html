@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LITTLE LiON</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- BOOTSTRAP THEME -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light navbar-expand-md ml-5">
+      <div class="navbar-header">
+        <a class="navbar-brand"><h4>ARTISTLOGO</h4></a>
+      </div>
+      <button class="btn btn-dark-outline navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar6">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-stretch" id="navbar6">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="#">Home&nbsp;&nbsp;</a></li>
+        <li class="nav-item"><a href="#">Page 1&nbsp;&nbsp;</a></li>
+        <li class="nav-item"><a href="#"> Page 2&nbsp;&nbsp;</a></li>
+        <li class="nav-item"><a href="#"> Page 3&nbsp;&nbsp;</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+
+  <!-- HERO -->
+  <div class="jumbotron jumbotron-fluid mb-0 hero-background-img">
+    <div class="container">
+      <h3 class="display-4 text-white text-center"> LITTLE LiON&nbsp;</h3>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- EVENTS --> 
+  <div class="dates-background-img">
+  <!-- Tour date 1 --> 
+  <div class="container text-center">
+    <nav class="navbar navbar-expand-md ml-5"> <h3 class="text-light"><strong>upcoming dates</strong></h3></nav>
+    <br>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-4"><p class="text-light">Dates<br><br>Tour</p></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-md btn-dark">tickets</button>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-4"><br><p class="text-light">City</p></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-md btn-outline-secondary">rsvp</button>
+        </div>
+      </div>
+    </div>
+      <!-- Tour date 2 --> 
+    <div class="container mt-5">
+      <div class="row no-gutters">
+        <div class="col-md-4"><p class="text-light">Dates<br><br>Tour</p></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-md btn-dark">tickets</button>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-4"><br><p class="text-light">City</p></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-md btn-outline-secondary">rsvp</button>
+        </div>
+      </div>
+    </div>
+  
+      <!-- Tour date 3 --> 
+    <div class="container mt-5">
+      <div class="row no-gutters">
+        <div class="col-md-4"><p class="text-light">Dates<br><br>Tour</p></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-md btn-dark">tickets</button>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-4"><br><p class="text-light">City</p></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-md btn-outline-secondary">rsvp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <div class=container>
+      <div class="row p-3">
+        <button class=" btn btn-block btn-danger" href='#'>Show all events</button>
+      </div>
+    </div>
+  </div>
+  <!-- MERCH -->
+  <div class="jumbotron jumbotron-fluid merch-background-img">
+    <div class="container">
+      <h3 class="display-5 text-light">Sophies Merch</h3>
+      <button class="btn btn-md btn-dark">shop all</button>
+    </div>
+  </div>
+
+  <div class="container justify-content-center">
+    <div class="jumbotron jumbotron-fluid othermerch-background-img ">
+      <div class="container text-center ">
+        <h1 class="display-4 text-light">Other Merch</h1>
+        <button class="btn btn-dark btn-md">shop</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Merch Cards -->
+  <div class="container justify-content-center">
+    <div class="row">
+      <div class="col-md-3">
+          <div class="card">
+            <img src="static/styles/sophie_img/fakemerch/hats.jpg" height="300" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">HATS</h5>
+                <a href="#" class="btn btn-primary">Purchase</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+              <img src="static/styles/sophie_img/fakemerch/jersey.jpg" height="300" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title text-center">JERSEYS</h5>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+            </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+              <img src="static/styles/sophie_img/fakemerch/shoe.jpg" height="300" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title text-center">SHOES</h5>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+            </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card">
+              <img src="static/styles/sophie_img/fakemerch/chains.jpg" height="300" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title text-center">CHAINS</h5>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+            </div>
+      </div>
+    </div>
+    <br>
+    <div class='row'>
+        <div class="col-md-4">
+            <div class="card">
+              <img src="static/styles/sophie_img/fakemerch/hoodie.jpg" height="300" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title text-center">HOODIES</h5>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="static/styles/sophie_img/fakemerch/tee.jpg" height="300"class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title text-center">TEE's</h5>
+                    <a href="#" class="btn btn-primary">Purchase</a>
+                  </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="static/styles/sophie_img/fakemerch/idk.jpg" height="300" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">IDK</h5>
+                    <a href="#" class="btn btn-primary">Purchase</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container-fluid text-md-left ml-4">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">SIGN UP AND SAVE</h5>
+          <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals!!!</p>
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <button type="submit" class="btn btn-primary">Join the movement</button>
+            </form>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-6 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="#"> thisisntreal.com</a>
+      </div>
+    </footer>
+</body>
+</html>

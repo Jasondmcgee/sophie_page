@@ -1,0 +1,36 @@
+.center {
+    padding:1em;
+    text-align: center;
+    display: inline-block;
+}
+
+.hero-background-img {
+    background-image: url("sophie_img/placeholder.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding:10em;
+}
+
+
+.dates-background-img {
+    background-image: url("sophie_img/sophiemixin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     /* Tone the image down further by giving it transparency */
+}
+
+.merch-background-img {
+    background-image: url("sophie_img/skating.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.othermerch-background-img {
+    background-image: url("sophie_img/lion.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
